@@ -1,0 +1,15 @@
+LAB 6 — CODE COVERAGE
+Identifier: PES2UG24CS166
+
+Command:
+  coverage erase
+  coverage run -m pytest -v CodeCoverageTest_PES2UG24CS166_application.py
+  coverage report -m
+
+Verified result for irrigation_scheduler.py:
+  Stmts: 38
+  Miss:  0
+  Cover: 100%
+
+Test result:
+  14 passed
